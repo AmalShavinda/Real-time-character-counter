@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(250, 213, 252);
+    font-family: cursive;
+}
+
+.container {
+    background-color: rgb(255, 133, 208);
+    width: 400px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.textarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    box-sizing: border-box;
+    border: solid 2px darkgray;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-container p {
+    font-size: 18px;
+}
+
+.counter-container .total-counter {
+    color: rgb(93, 93, 219);
+}
+
+.counter-container .remaining-counter {
+    color: rgb(240, 49, 49);
+}
